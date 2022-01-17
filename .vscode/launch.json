@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-node",
+            "name": "Run Test JS",
+            "request": "launch",
+            "program": "${workspaceFolder}\\testjs.js"
+        },
+        {
+            "type": "pwa-node",
+            "name": "Run Test JS2",
+            "request": "launch",
+            "program": "${workspaceFolder}\\testjs2.js"
+        }
+    ]
+}
